@@ -59,6 +59,7 @@ nav a{
 .btn{
     display: flex;
     justify-content: center;
+    
 
 
 }
@@ -70,6 +71,7 @@ button{
     padding-left: 100px;
     background-color: lime; 
     color:blue;
+    text-decoration:none;
 }
 .top-content{
     display: flex;
