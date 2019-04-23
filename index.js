@@ -1,4 +1,1 @@
-function myFunction(){
-    document.getElementById('btn').style.color = 'lime';
-    document.getElementById('btn').style.background-color ; 'blue';
-}
+nav.addEventListener('click', () => style.color='blue');

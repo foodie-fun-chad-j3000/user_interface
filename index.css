@@ -58,17 +58,19 @@ nav a{
     padding-top: 32px;
     margin-right: 65px;
     font-size: 25px;
-
-   
 }
 
 #btn{
     display: flex;
     justify-content: center;
     margin-bottom: 30%;
-
-
 }
+
+a:hover {
+    color: blue;
+  }
+
+
 
 button{
     
@@ -81,6 +83,9 @@ button{
     color:blue;
     text-decoration:none;
 }
+
+
+
 .top-content{
     display: flex;
     flex-wrap: wrap;
