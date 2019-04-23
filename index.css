@@ -85,6 +85,7 @@ button{
     width: 100%;
     margin-top: 16px;
     flex-wrap: wrap;
+    background-color: blue;
   }
   @media (min-width: 1200px) {
     .cards-container {
@@ -97,14 +98,15 @@ button{
     justify-content: space-between;
     align-items: none;
     flex-direction: column;
-    background-color: #fff;
+    /*background-image: url("paper.gif");*/
+    background-color: blue;
     width: 380px;
     margin-bottom: 16px;
     padding: 24px;
   }
   .cards-container .card .headline {
     font-size: 25px;
-    font-family: Didot, serif;
+    font-family: 'Roboto Condensed', sans-serif;
   }
   .cards-container .card .author {
     display: flex;
