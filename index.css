@@ -19,12 +19,14 @@ h1, h2, h3, h4, h5 {
 }
 
 header{
+    
     display:flex;
     flex-direction:row;
     flex-wrap:nowrap;
     width: 100%;
 }
 .header-H{
+   
     width:50%;
     justify-content: center;
     display: flex;
@@ -43,29 +45,35 @@ header{
 }
 
 nav{
+    
     width:50%;
     display:flex;
     justify-content: center;
 }
 
 nav a{
+    
     text-decoration:none;
     color:black;
     padding-top: 32px;
     margin-right: 65px;
     font-size: 25px;
+
+   
 }
 
-.btn{
+#btn{
     display: flex;
     justify-content: center;
-    
+    margin-bottom: 30%;
 
 
 }
 
 button{
-    border:lime;
+    
+    margin: 0 auto;
+    border:2px solid black;
     font-size: 20px;
     padding-right: 100px;
     padding-left: 100px;
