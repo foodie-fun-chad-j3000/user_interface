@@ -1,3 +1,4 @@
+// making some changes
 const nav = document.querySelector('.home');
 // console.log(nav)
 nav.addEventListener('click', (event) => {
