@@ -159,6 +159,7 @@ button{
      }
 
   }
+
   .cards-container .card {
     border-bottom: 1px solid lightgrey;
     display: flex;
@@ -194,4 +195,10 @@ button{
     font-size: 12px;
     letter-spacing: 1px;
     font-weight: bold;
+  }
+
+  .invisible_card {
+    background: 'yellow';
+    height: 100;
+    width: 100;
   }
