@@ -1,6 +1,6 @@
 const nav = document.querySelector('.home');
-const cards = document.querySelectorAll('.invisibe-card');
-console.log(cards)
+const cards = document.querySelectorAll('.card');
+console.log("cards", cards)
 nav.addEventListener('click', (event) => {
   // console.log(event)
  console.log(nav.style);
@@ -19,11 +19,15 @@ const overlay_toggle = () => {
 
 cards.forEach((card) => {
   card.addEventListener("mouseenter", (e) => {
-    card.classList.toggle("visible_card");
+    console.log("working");
+
+    // card.classList.toggle("visible_card");
+    card.style.border = "3px yellow solid"
   });
 
   card.addEventListener("mouseleave", (e) => {
-    card.classList.toggle("visible_card");
+    card.style.border = "none"
+    // card.classList.toggle("visible_card");
   });
 });
 
