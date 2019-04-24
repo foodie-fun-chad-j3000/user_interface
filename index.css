@@ -32,7 +32,7 @@ header{
     display: flex;
     align-items: flex-start;
     margin-right: 28%;
-    
+    font-size:50px;
 }
 .container {
     
@@ -46,26 +46,25 @@ header{
 }
 
 nav{
-    
   display: flex;
-  padding-top: 35px;
-  font-size: 10px;
-  border:1px solid red;
+  padding-top: 122px;
+  font-size: 24px;
+  
+  
 }
 
 nav a{
-    
-  color: blue;
+  color: black;
   text-decoration: none;
-  margin-right: 180px 
+  margin-right: 150px; 
 }
 
 #btn{
     display: flex;
     justify-content: center;
     margin-bottom: 30%;
-    
-}
+}    
+
 
 
 
