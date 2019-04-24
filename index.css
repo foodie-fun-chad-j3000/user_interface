@@ -47,18 +47,17 @@ header{
 
 nav{
     
-    width:50%;
-    display:flex;
-    justify-content: center;
+  display: flex;
+  padding-top: 35px;
+  font-size: 10px;
+  border:1px solid red;
 }
 
 nav a{
     
-    text-decoration:none;
-    color:black;
-    padding-top: 32px;
-    margin-right: 65px;
-    font-size: 25px;
+  color: blue;
+  text-decoration: none;
+  margin-right: 180px 
 }
 
 #btn{
@@ -113,9 +112,19 @@ button{
     margin-top: 16px;
     flex-wrap: wrap;
   }
+
+
+
+
+
+
+
+
+
+
   /* 640 is the pixel width of an iPhone 5c. Which is my crummy phone */
    @media (max-width: 640px) {
-     a {
+     nav a {
        text-decoration: none;
      }
 
@@ -157,8 +166,12 @@ button{
        height: 75px;
        border: 1px black solid;
        margin: 3px;
-     }
+      
+    }
+     
+  
 
+  
   }
   .cards-container .card {
     border-bottom: 1px solid lightgrey;
