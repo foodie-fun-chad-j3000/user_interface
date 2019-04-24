@@ -32,7 +32,7 @@ header{
     display: flex;
     align-items: flex-start;
     margin-right: 28%;
-    font-size:50px;
+    
 }
 .container {
     
@@ -46,25 +46,27 @@ header{
 }
 
 nav{
-  display: flex;
-  padding-top: 122px;
-  font-size: 24px;
-  
-  
+    
+    width:50%;
+    display:flex;
+    justify-content: center;
 }
 
 nav a{
-  color: black;
-  text-decoration: none;
-  margin-right: 150px; 
+    
+    text-decoration:none;
+    color:black;
+    padding-top: 32px;
+    margin-right: 65px;
+    font-size: 25px;
 }
 
 #btn{
     display: flex;
     justify-content: center;
     margin-bottom: 30%;
-}    
-
+    
+}
 
 
 
@@ -111,21 +113,10 @@ button{
     margin-top: 16px;
     flex-wrap: wrap;
   }
-
-
-
-
-
-
-
-
-
-
   /* 640 is the pixel width of an iPhone 5c. Which is my crummy phone */
    @media (max-width: 640px) {
-     nav a {
+     a {
        text-decoration: none;
-       margin: 0 auto;
      }
 
      button {
@@ -166,12 +157,8 @@ button{
        height: 75px;
        border: 1px black solid;
        margin: 3px;
-      
-    }
-     
-  
+     }
 
-  
   }
   .cards-container .card {
     border-bottom: 1px solid lightgrey;
