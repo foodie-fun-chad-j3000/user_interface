@@ -89,19 +89,23 @@ button{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
 }
 .top-cont{
     display:flex;
     flex-wrap:wrap;
     justify-content:center;
     flex-direction: column;
+    width: 100%;
+    padding: 0 4% 0;
 }
+
  .top-cont h2{
     display: flex;
     justify-content: center;
     font-size: 72px;
-} 
- 
+}
+
 
 .cards-container {
     background-color:blue;
@@ -158,6 +162,8 @@ button{
        border: 1px black solid;
        margin: 3px;
      }
+
+
 
   }
   .cards-container .card {
