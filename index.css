@@ -125,6 +125,7 @@ button{
    @media (max-width: 640px) {
      nav a {
        text-decoration: none;
+       margin: 0 auto;
      }
 
      button {
