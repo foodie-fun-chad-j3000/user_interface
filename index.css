@@ -113,7 +113,7 @@ button{
     margin-top: 16px;
     flex-wrap: wrap;
   }
-   @media (max-width: 500px) {
+   @media (max-width: 640px) {
      a {
        text-decoration: none;
      }
