@@ -220,10 +220,10 @@ footer .about-us {
   align-items: none;
   flex-direction: row;
   width: 90%;
-  margin-top: 16px;
+  margin-top: 32px;
   flex-wrap: wrap;
   /*background-color: red;*/
-  margin-bottom: 16px;
+  margin-bottom: 32px;
 }
 
 footer .about-us .team-member {
@@ -235,8 +235,9 @@ footer .about-us .team-member {
 }
 
 footer .about-us .team-member img {
-  width: 100px;
-  height: 100px;
+  width: 50%;
+  height: 80%;
+  margin-right: 16px;
 }
   
 
