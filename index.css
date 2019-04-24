@@ -65,14 +65,22 @@ nav a{
     display: flex;
     justify-content: center;
     margin-bottom: 30%;
-    
+
+}
+
+.blurb {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  padding: 0 20%;
+  margin: 50px 0;
 }
 
 
 
-
 button{
-    
+ 
     margin: 0 auto;
     border:2px solid black;
     font-size: 20px;
@@ -159,6 +167,14 @@ button{
        margin: 3px;
      }
 
+    .blurb {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 200px;
+      padding: 0 20%;
+      margin: 50px 0;
+    }
   }
   .cards-container .card {
     border-bottom: 1px solid lightgrey;
