@@ -113,7 +113,8 @@ button{
     margin-top: 16px;
     flex-wrap: wrap;
   }
-   @media (max-width: 500px) {
+  /* 640 is the pixel width of an iPhone 5c. Which is my crummy phone */
+   @media (max-width: 640px) {
      a {
        text-decoration: none;
      }
