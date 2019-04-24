@@ -1,3 +1,4 @@
+// making some changes
 const nav = document.querySelector('.home');
 const cards = document.querySelectorAll(".card");
 
