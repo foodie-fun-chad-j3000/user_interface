@@ -14,9 +14,15 @@ button.addEventListener('mouseover',function(e){
     event.target.style.color ="black";
 })
 
+const cards = document.querySelectorAll(".card");
 
+cards.forEach((card) => {
+card.addEventListener("mouseenter", (event) =>  card.style.border = "black 3px solid"
+)})
 
-
+cards.forEach((card) => {
+  card.addEventListener("mouseleave", (event) =>  card.style.border = ""
+  )})
 
 
 
