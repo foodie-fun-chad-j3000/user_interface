@@ -15,6 +15,7 @@ const button = document.getElementById('btn');
 
 button.addEventListener('mouseover',function(e){
     event.target.style.color ="black";
+    event.target.style.background = "white"
 })
 
 
@@ -24,7 +25,7 @@ cards.forEach((card) => {
 
   })
   card.addEventListener("mouseleave", (e) => {
-    card.style.border = "";
+    card.style.border = "blue 3px solid";
   })
 })
 
