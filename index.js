@@ -22,10 +22,12 @@ button.addEventListener('mouseover',function(e){
 cards.forEach((card) => {
   card.addEventListener("mouseenter", (e) => {
     card.style.border = "black 3px solid";
+    // card.style.border-bottom = "black 3px solid";
 
   })
   card.addEventListener("mouseleave", (e) => {
     card.style.border = "blue 3px solid";
+    // card.style.border-bottom = "lightgrey 1px solid";
   })
 })
 
