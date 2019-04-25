@@ -77,6 +77,8 @@ nav a{
 button{
     
     margin: 0 auto;
+    /* width: 20%; */
+    /* height: 50px; */
     border: none;
     font-size: 20px;
     padding-right: 100px;
@@ -178,6 +180,8 @@ button{
   }
   .cards-container .card {
     border-bottom: 1px solid lightgrey;
+    box-sizing: border-box;
+    
     display: flex;
     justify-content: space-between;
     align-items: none;
