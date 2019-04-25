@@ -32,6 +32,7 @@ header{
     display: flex;
     align-items: flex-start;
     margin-right: 28%;
+    margin-left: 100px
     
 }
 .container {
@@ -43,6 +44,9 @@ header{
     flex-wrap:wrap;
     justify-content:center;
     background-color: yellow;
+}
+a {
+  text-decoration:none;
 }
 
 nav{
@@ -64,10 +68,9 @@ nav a{
 #btn{
     display: flex;
     justify-content: center;
-    text-decoration: none;
     
 }
-
+ 
 
 
 
@@ -148,7 +151,7 @@ button{
        height: 75px;
        margin-left: 100px;
        margin:0 auto;
-       padding-left:45px;
+       font-size:30px;
      }
 
      .header-H nav {
