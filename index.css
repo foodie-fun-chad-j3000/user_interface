@@ -236,7 +236,8 @@ footer .about-us .team-member {
 
 footer .about-us .team-member img {
   width: 50%;
-  height: 80%;
+  height: 70%;
+  border-radius: 50%;
   margin-right: 16px;
 }
   
