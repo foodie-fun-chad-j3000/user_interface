@@ -167,10 +167,10 @@ button{
     justify-content: space-between;
     align-items: none;
     flex-direction: column;
-    background-image: url(assets/AvocadoToast.jpeg);
+    /*background-image: url(assets/AvocadoToast.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center center;*/
     background-color: #fff;
     width: 340px;
     margin-top: 16px;
