@@ -26,7 +26,7 @@ header{
     width: 100%;
 }
 .header-H{
-   
+    font-size: 45px;
     width:50%;
     justify-content: center;
     display: flex;
@@ -36,7 +36,7 @@ header{
 }
 .container {
     
-   border-top:2px solid black;
+    border-top:2px solid black;
     margin-left:0px;
     display:flex;
     margin: 0 auto;
@@ -46,7 +46,7 @@ header{
 }
 
 nav{
-    
+    padding-top: 50px;
     width:50%;
     display:flex;
     justify-content: center;
@@ -56,7 +56,6 @@ nav a{
     
     text-decoration:none;
     color:black;
-    padding-top: 32px;
     margin-right: 65px;
     font-size: 25px;
 }
@@ -64,7 +63,7 @@ nav a{
 #btn{
     display: flex;
     justify-content: center;
-    margin-bottom: 30%;
+    text-decoration: none;
     
 }
 
@@ -74,7 +73,7 @@ nav a{
 button{
     
     margin: 0 auto;
-    border:2px solid black;
+    border: none;
     font-size: 20px;
     padding-right: 100px;
     padding-left: 100px;
@@ -114,7 +113,7 @@ button{
     flex-wrap: wrap;
   }
   /* 640 is the pixel width of an iPhone 5c. Which is my crummy phone */
-   @media (max-width: 640px) {
+   @media (max-width: 500px) {
      a {
        text-decoration: none;
      }
@@ -171,7 +170,7 @@ button{
     background-repeat: no-repeat;
     background-position: center center;*/
     background-color: #fff;
-    width: 380px;
+    width: 340px;
     margin-top: 16px;
     margin-bottom: 16px;
     padding: 24px;
@@ -248,8 +247,8 @@ footer .about-us .team-member img {
     display: flex;
     justify-content: center;
     width: 100%;
-    height 100px;
+    height: 100px;
     padding: 0 20%;
-    margin 50px 0;
+    margin: 50px 0;
   }
 
